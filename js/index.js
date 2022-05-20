@@ -116,11 +116,11 @@ const {
   occupation,
 } = personInfo;
 
-console.log(
+console.time(
   `Position Desired: ${personInfo.positionDesired} \nDate: ${date} \nName: ${name} \nGender: ${gender} \nCity Address: ${cityAddress} \nProvincial Address: ${provincialAddress} \nTelephone: ${telephone} \nCellphone: ${cellphone} \nE-mail Address: ${eMailAddress} \nDate of Birth: ${dateofBirth} \nBirth of Place: ${birthofPlace} \nCivil Status: ${civilStatus} \nCitizenship: ${citizenship} \nHeight: ${height} \nWeight: ${weight} \nReligion: ${religion} \nOccupation: ${occupation}`
 );
 
 const personResult = `Position Desired: ${personInfo.positionDesired} \nDate: ${date} \nName: ${name} \nGender: ${gender} \nCity Address: ${cityAddress} \nProvincial Address: ${provincialAddress} \nTelephone: ${telephone} \nCellphone: ${cellphone} \nE-mail Address: ${eMailAddress} \nDate of Birth: ${dateofBirth} \nBirth of Place: ${birthofPlace} \nCivil Status: ${civilStatus} \nCitizenship: ${citizenship} \nHeight: ${height} \nWeight: ${weight} \nReligion: ${religion} \nOccupation: ${occupation}`;
 
-const result = document.querySelector('.person-info p');
+const result = document.querySelector(".person-info p");
 result.innerHTML = personResult;
